@@ -5,9 +5,9 @@
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js"
   },
-  "pre-commit": {
+  "pre-commit": [
     "test"
-  },
+  ],
   "devDependencies": {
     "jasmine-core": "^3.4.0",
     "karma": "^4.1.0",

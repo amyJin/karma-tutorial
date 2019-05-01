@@ -1,0 +1,14 @@
+{
+  "name": "karma-seed",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "devDependencies": {
+    "jasmine-core": "^3.4.0",
+    "karma": "^4.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1"
+  }
+}
